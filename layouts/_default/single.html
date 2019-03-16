@@ -1,0 +1,20 @@
+{{ partial "header.html" . }}
+<div class="my-3 my-md-5">
+  <div class="container">
+    <div class="col-12">
+      <div class=" card">
+      <div class="card-body">
+        <div class="text-wrap p-lg-6">
+          <h2 class="mt-0 mb-4">{{ .Title }}</h2>
+          <div class="text-right">
+            <p>{{ .Date.Format "Jan 01, 2006" }}</p>
+          </div>
+          <p>{{ .Content }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+{{ partial "footer.html" . }}
