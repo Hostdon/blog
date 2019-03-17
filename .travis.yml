@@ -1,5 +1,5 @@
 language: go
-dist: stretch
+dist: trusty
 
 sudo: false
 
