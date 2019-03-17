@@ -14,7 +14,7 @@ before_script:
   - sudo dpkg -i hugo_${HUGO_VERSION}_Linux-64bit.deb
 
 script:
-  - hugo --cleanDestinationDir
+  - hugo --v
 
 deploy:
   provider: pages
