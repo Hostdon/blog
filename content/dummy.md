@@ -1,7 +1,8 @@
 ---
 title: "dummy"
 date: 2019-03-17T10:39:51+09:00
-draft: false
+draft: ture
+description: "aiueokakikukeko"
 ---
 
 あなたはほか恐らくいわゆる立脚界というのの時をしですます。
