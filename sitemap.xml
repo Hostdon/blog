@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.hostdon.jp/new-manager-20190324/</loc>
+    <lastmod>2019-03-24T11:00:10+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.hostdon.jp/incident-20190319/</loc>
     <lastmod>2019-03-19T14:57:29+09:00</lastmod>
   </url>
@@ -14,7 +19,7 @@
   
   <url>
     <loc>https://blog.hostdon.jp/</loc>
-    <lastmod>2019-03-19T14:57:29+09:00</lastmod>
+    <lastmod>2019-03-24T11:00:10+09:00</lastmod>
     <priority>0</priority>
   </url>
   

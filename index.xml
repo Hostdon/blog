@@ -6,10 +6,30 @@
     <description>Recent content on Hostdon 公式ブログ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 19 Mar 2019 14:57:29 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 24 Mar 2019 11:00:10 +0900</lastBuildDate>
     
 	<atom:link href="https://blog.hostdon.jp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[新機能]コントロールパネルがリニューアルしました</title>
+      <link>https://blog.hostdon.jp/new-manager-20190324/</link>
+      <pubDate>Sun, 24 Mar 2019 11:00:10 +0900</pubDate>
+      
+      <guid>https://blog.hostdon.jp/new-manager-20190324/</guid>
+      <description>Hostdonでは以前から運用していましたコントロールパネルをリニューアルしました。
+新コントロールパネル: https://manager.hostdon.jp
+
+今回のアップデートでは全面的にデザインを見直しました。
+新機能:
+ 請求履歴の確認ができるようになりました。Stripeが提供する請求書や領収書がPDFで確認できます。
+ 1つのアカウントで複数のインスタンスが管理できるようになりました。
+ クーポン機能を追加しました。
+ Mastodonのサーバー側で行うタスクが実行できるようになりました。 その他軽微調整を行いました。
+  追加予定の機能:
+ 二段階認証 インスタンスのリソースグラフ  これからも新機能の追加を行う予定ですので、よろしくお願い致します。
+※以前のコントロールパネルは新コントロールパネルにリダイレクトされます。</description>
+    </item>
     
     <item>
       <title>[復旧済]メディアがアップロードできない問題について</title>
