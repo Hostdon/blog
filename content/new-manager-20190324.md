@@ -6,7 +6,7 @@ description: "2019年3月24日コントロールパネルをリニューアル�
 ---
 
 Hostdonでは以前から運用していましたコントロールパネルをリニューアルしました。  
-新コントロールパネル: https://manager.hostdon.jp
+新コントロールパネル: https://manage.hostdon.jp
 
 <iframe src="https://mstdn.hostdon.jp/@hostdon/101798288149170524/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400"></iframe><script src="https://mstdn.hostdon.jp/embed.js" async="async"></script>
 
