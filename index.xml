@@ -6,10 +6,19 @@
     <description>Recent content on Hostdon 公式ブログ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 24 Mar 2019 11:00:10 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jul 2019 10:06:57 +0900</lastBuildDate>
     
 	<atom:link href="https://blog.hostdon.jp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>HostdonはMastodonのプラチナスポンサーになりました</title>
+      <link>https://blog.hostdon.jp/hostdon-sponser/</link>
+      <pubDate>Tue, 02 Jul 2019 10:06:57 +0900</pubDate>
+      
+      <guid>https://blog.hostdon.jp/hostdon-sponser/</guid>
+      <description>2019年7月よりHostdonはMastodonのプラチナスポンサー(月200ドルを寄付)になりました</description>
+    </item>
     
     <item>
       <title>[新機能]コントロールパネルがリニューアルしました</title>
