@@ -6,10 +6,23 @@
     <description>Recent content on Hostdon 公式ブログ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 02 Jul 2019 10:06:57 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jul 2019 09:49:30 +0900</lastBuildDate>
     
 	<atom:link href="https://blog.hostdon.jp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hostdon 2周年記念 30日間無料キャンペーンを実施します</title>
+      <link>https://blog.hostdon.jp/hostdon-campaign/</link>
+      <pubDate>Wed, 03 Jul 2019 09:49:30 +0900</pubDate>
+      
+      <guid>https://blog.hostdon.jp/hostdon-campaign/</guid>
+      <description>Hostdonは今月で2周年となります。記念として30日間新規インスタンスを申し込むと基本利用料が30日間無料になるキャンペーンを実施します。
+対象: 期間中、新規インスタンスを申し込んだ方
+期間: 2019年7月3日から2019年7月10日まで
+注意事項: 特典は1人1回までとさせていただきます。また、ディスク増量及び日本語検索機能の料金は対象外です。
+この機会に是非、Hostdonをご利用ください！</description>
+    </item>
     
     <item>
       <title>HostdonはMastodonのプラチナスポンサーになりました</title>
