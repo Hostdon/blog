@@ -22,4 +22,5 @@ fields:
     required: false
   label: description
 pages:
+- content/pleromaホスティング開始記念-14日間無料キャンペーンを実施します.md
 - content/pleroma.md
