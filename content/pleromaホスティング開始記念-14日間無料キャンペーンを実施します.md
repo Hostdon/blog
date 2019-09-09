@@ -1,7 +1,6 @@
 +++
 date = "2019-09-09T09:00:00+00:00"
 description = ""
-draft = true
 title = "Pleromaホスティング開始記念 14日間無料キャンペーンを実施します"
 
 +++
