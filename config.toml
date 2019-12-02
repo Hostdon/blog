@@ -1,3 +1,5 @@
 baseURL = "https://blog.hostdon.jp"
 languageCode = "ja-jp"
 title = "Hostdon 公式ブログ"
+[taxonomies]
+tag = "tags"

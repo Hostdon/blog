@@ -18,6 +18,9 @@
         <h4>
           <a href="{{ .Permalink }}">{{ .Title }}</a>
         </h4>
+        {{ with .Params.tags }}
+        {{ range . }} <a href="/tags/{{ lower . }}/" class="badge badge-primary">{{ . }}</a>{{ end }}
+        {{ end }}
         <div class="text-right">
           <p>{{ .Date.Format "Jan 02, 2006" }}</p>
         </div>

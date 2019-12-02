@@ -3,6 +3,7 @@ title: "HostdonはMastodonのプラチナスポンサーになりました"
 date: 2019-07-02T10:06:57+09:00
 draft: false
 description: "Hostdonは7月よりMastodonのプラチナスポンサーになりました"
+tags : ["お知らせ"]
 ---
 
 2019年7月よりHostdonはMastodonのプラチナスポンサー(月200ドルを寄付)になりました  

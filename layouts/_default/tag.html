@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+<div class="my-3 my-md-5">
+    <div class="container">
+        <div class="col-12">
+            <h3>タグ: {{ .Title }} の記事一覧</h3>
+            {{ range (.Paginator 5).Pages }}
+            {{ .Render "list" }}
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ partial "footer.html" . }}
