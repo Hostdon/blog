@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>キャンペーン on Hostdon 公式ブログ</title>
+    <link>https://blog.hostdon.jp/tags/%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3/</link>
+    <description>Recent content in キャンペーン on Hostdon 公式ブログ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Mon, 09 Sep 2019 09:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.hostdon.jp/tags/%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pleromaホスティング開始記念 14日間無料キャンペーンを実施します</title>
+      <link>https://blog.hostdon.jp/pleroma%E3%83%9B%E3%82%B9%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E9%96%8B%E5%A7%8B%E8%A8%98%E5%BF%B5-14%E6%97%A5%E9%96%93%E7%84%A1%E6%96%99%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%E3%82%92%E5%AE%9F%E6%96%BD%E3%81%97%E3%81%BE%E3%81%99/</link>
+      <pubDate>Mon, 09 Sep 2019 09:00:00 +0000</pubDate>
+      
+      <guid>https://blog.hostdon.jp/pleroma%E3%83%9B%E3%82%B9%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E9%96%8B%E5%A7%8B%E8%A8%98%E5%BF%B5-14%E6%97%A5%E9%96%93%E7%84%A1%E6%96%99%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%E3%82%92%E5%AE%9F%E6%96%BD%E3%81%97%E3%81%BE%E3%81%99/</guid>
+      <description>Hostdonは8月31日よりPleromaホスティングを開始しました。
+この記念として、新規インスタンスを申し込むと利用料金が14日間無料になるキャンペーンを実施します。
+ 対象: 期間中、新規インスタンスを申し込んだ方(Mastodon・Pleroma) 期間: 2019年9月10日から2019年9月16日まで 注意事項: 特典は1人1回までとさせていただきます。また、ディスク増量及び日本語検索機能の料金は対象外です。  この機会に是非、Hostdonをご利用ください！</description>
+    </item>
+    
+    <item>
+      <title>Hostdon 2周年記念 30日間無料キャンペーンを実施します</title>
+      <link>https://blog.hostdon.jp/hostdon-campaign/</link>
+      <pubDate>Wed, 03 Jul 2019 09:49:30 +0900</pubDate>
+      
+      <guid>https://blog.hostdon.jp/hostdon-campaign/</guid>
+      <description>Hostdonは今月で2周年となります。記念として30日間新規インスタンスを申し込むと基本利用料が30日間無料になるキャンペーンを実施します。
+対象: 期間中、新規インスタンスを申し込んだ方
+期間: 2019年7月3日から2019年7月10日まで
+注意事項: 特典は1人1回までとさせていただきます。また、ディスク増量及び日本語検索機能の料金は対象外です。
+この機会に是非、Hostdonをご利用ください！</description>
+    </item>
+    
+  </channel>
+</rss>
