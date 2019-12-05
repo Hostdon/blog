@@ -26,5 +26,6 @@ fields:
   default: []
   label: tags
 pages:
+- content/beta-hostdon-シンガポールリージョン提供開始のお知らせ.md
 - content/pleroma.md
 - content/pleromaホスティング開始記念-14日間無料キャンペーンを実施します.md
