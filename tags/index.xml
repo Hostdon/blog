@@ -6,14 +6,24 @@
     <description>Recent content in Tags on Hostdon 公式ブログ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
+    <lastBuildDate>Wed, 04 Dec 2019 15:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://blog.hostdon.jp/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Beta</title>
+      <link>https://blog.hostdon.jp/tags/beta/</link>
+      <pubDate>Wed, 04 Dec 2019 15:00:00 +0000</pubDate>
+      
+      <guid>https://blog.hostdon.jp/tags/beta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>お知らせ</title>
       <link>https://blog.hostdon.jp/tags/%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/</link>
-      <pubDate>Mon, 09 Sep 2019 09:00:00 +0000</pubDate>
+      <pubDate>Wed, 04 Dec 2019 15:00:00 +0000</pubDate>
       
       <guid>https://blog.hostdon.jp/tags/%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/</guid>
       <description></description>

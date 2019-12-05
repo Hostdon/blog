@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Beta on Hostdon 公式ブログ</title>
+    <link>https://blog.hostdon.jp/tags/beta/</link>
+    <description>Recent content in Beta on Hostdon 公式ブログ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Wed, 04 Dec 2019 15:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.hostdon.jp/tags/beta/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[beta]Hostdon シンガポールリージョン提供開始のお知らせ</title>
+      <link>https://blog.hostdon.jp/beta-hostdon-%E3%82%B7%E3%83%B3%E3%82%AC%E3%83%9D%E3%83%BC%E3%83%AB%E3%83%AA%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%8F%90%E4%BE%9B%E9%96%8B%E5%A7%8B%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/</link>
+      <pubDate>Wed, 04 Dec 2019 15:00:00 +0000</pubDate>
+      
+      <guid>https://blog.hostdon.jp/beta-hostdon-%E3%82%B7%E3%83%B3%E3%82%AC%E3%83%9D%E3%83%BC%E3%83%AB%E3%83%AA%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%8F%90%E4%BE%9B%E9%96%8B%E5%A7%8B%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/</guid>
+      <description>本日よりHostdonでは従来のプランより利用料金が2~3割程度安くなる「シンガポールリージョン」のBeta提供を開始しました。
+
+Beta版ではシンガポールサーバーのレイテンシや動作確認を兼ねており、期間限定(12月31日まで)ですが無料でMastodonホスティングを利用可能です。
+この機会に是非ご利用ください。
+※2019年12月31日まで無償提供となりますが、それ以降は所定の料金がかかります。ご注意ください。 ※セットアップに時間がかかる場合があります。また、規定の申込数に達した場合は新規申込を停止させていただきます。</description>
+    </item>
+    
+  </channel>
+</rss>
