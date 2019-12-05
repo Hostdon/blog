@@ -21,6 +21,10 @@ fields:
   config:
     required: false
   label: description
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
 pages:
-- content/pleromaホスティング開始記念-14日間無料キャンペーンを実施します.md
 - content/pleroma.md
+- content/pleromaホスティング開始記念-14日間無料キャンペーンを実施します.md
