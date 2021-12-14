@@ -1,26 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>障害情報 on Hostdon 公式ブログ</title>
-    <link>https://blog.hostdon.jp/tags/%E9%9A%9C%E5%AE%B3%E6%83%85%E5%A0%B1/</link>
-    <description>Recent content in 障害情報 on Hostdon 公式ブログ</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ja-jp</language>
-    <lastBuildDate>Tue, 19 Mar 2019 14:57:29 +0900</lastBuildDate>
-    
-	<atom:link href="https://blog.hostdon.jp/tags/%E9%9A%9C%E5%AE%B3%E6%83%85%E5%A0%B1/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>[復旧済]メディアがアップロードできない問題について</title>
-      <link>https://blog.hostdon.jp/incident-20190319/</link>
-      <pubDate>Tue, 19 Mar 2019 14:57:29 +0900</pubDate>
-      
-      <guid>https://blog.hostdon.jp/incident-20190319/</guid>
-      <description>本日(2019年3月19日)深夜から早朝にかけてメディアがアップロードできない問題が発生していました。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>障害情報 on Hostdon 公式ブログ</title><link>https://blog.hostdon.jp/tags/%E9%9A%9C%E5%AE%B3%E6%83%85%E5%A0%B1/</link><description>Recent content in 障害情報 on Hostdon 公式ブログ</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Tue, 19 Mar 2019 14:57:29 +0900</lastBuildDate><atom:link href="https://blog.hostdon.jp/tags/%E9%9A%9C%E5%AE%B3%E6%83%85%E5%A0%B1/index.xml" rel="self" type="application/rss+xml"/><item><title>[復旧済]メディアがアップロードできない問題について</title><link>https://blog.hostdon.jp/incident-20190319/</link><pubDate>Tue, 19 Mar 2019 14:57:29 +0900</pubDate><guid>https://blog.hostdon.jp/incident-20190319/</guid><description>本日(2019年3月19日)深夜から早朝にかけてメディアがアップロードできない問題が発生していました。
 調査を行ったところ、メディアサーバーの容量がオーバーしていたことが原因と分かりました。また、サーバーの容量オーバーを通知するプログラムが正常に動いておらず、不具合の発見が遅れました。
-今後このような事がないよう、対策を徹底していきたいと考えております。利用者の方々にはご迷惑をおかけし、申し訳ございません。</description>
-    </item>
-    
-  </channel>
-</rss>
+今後このような事がないよう、対策を徹底していきたいと考えております。利用者の方々にはご迷惑をおかけし、申し訳ございません。</description></item></channel></rss>

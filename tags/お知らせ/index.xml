@@ -1,98 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>お知らせ on Hostdon 公式ブログ</title>
-    <link>https://blog.hostdon.jp/tags/%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/</link>
-    <description>Recent content in お知らせ on Hostdon 公式ブログ</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ja-jp</language>
-    <lastBuildDate>Wed, 04 Dec 2019 15:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://blog.hostdon.jp/tags/%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>[beta]Hostdon シンガポールリージョン提供開始のお知らせ</title>
-      <link>https://blog.hostdon.jp/beta-hostdon-%E3%82%B7%E3%83%B3%E3%82%AC%E3%83%9D%E3%83%BC%E3%83%AB%E3%83%AA%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%8F%90%E4%BE%9B%E9%96%8B%E5%A7%8B%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/</link>
-      <pubDate>Wed, 04 Dec 2019 15:00:00 +0000</pubDate>
-      
-      <guid>https://blog.hostdon.jp/beta-hostdon-%E3%82%B7%E3%83%B3%E3%82%AC%E3%83%9D%E3%83%BC%E3%83%AB%E3%83%AA%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%8F%90%E4%BE%9B%E9%96%8B%E5%A7%8B%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/</guid>
-      <description>本日よりHostdonでは従来のプランより利用料金が2~3割程度安くなる「シンガポールリージョン」のBeta提供を開始しました。
-
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>お知らせ on Hostdon 公式ブログ</title><link>https://blog.hostdon.jp/tags/%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/</link><description>Recent content in お知らせ on Hostdon 公式ブログ</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Wed, 04 Dec 2019 15:00:00 +0000</lastBuildDate><atom:link href="https://blog.hostdon.jp/tags/%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/index.xml" rel="self" type="application/rss+xml"/><item><title>[beta]Hostdon シンガポールリージョン提供開始のお知らせ</title><link>https://blog.hostdon.jp/beta-hostdon-%E3%82%B7%E3%83%B3%E3%82%AC%E3%83%9D%E3%83%BC%E3%83%AB%E3%83%AA%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%8F%90%E4%BE%9B%E9%96%8B%E5%A7%8B%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/</link><pubDate>Wed, 04 Dec 2019 15:00:00 +0000</pubDate><guid>https://blog.hostdon.jp/beta-hostdon-%E3%82%B7%E3%83%B3%E3%82%AC%E3%83%9D%E3%83%BC%E3%83%AB%E3%83%AA%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%8F%90%E4%BE%9B%E9%96%8B%E5%A7%8B%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/</guid><description>本日よりHostdonでは従来のプランより利用料金が2~3割程度安くなる「シンガポールリージョン」のBeta提供を開始しました。
 Beta版ではシンガポールサーバーのレイテンシや動作確認を兼ねており、期間限定(12月31日まで)ですが無料でMastodonホスティングを利用可能です。
 この機会に是非ご利用ください。
-※2019年12月31日まで無償提供となりますが、それ以降は所定の料金がかかります。ご注意ください。 ※セットアップに時間がかかる場合があります。また、規定の申込数に達した場合は新規申込を停止させていただきます。</description>
-    </item>
-    
-    <item>
-      <title>Pleromaホスティング開始記念 14日間無料キャンペーンを実施します</title>
-      <link>https://blog.hostdon.jp/pleroma%E3%83%9B%E3%82%B9%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E9%96%8B%E5%A7%8B%E8%A8%98%E5%BF%B5-14%E6%97%A5%E9%96%93%E7%84%A1%E6%96%99%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%E3%82%92%E5%AE%9F%E6%96%BD%E3%81%97%E3%81%BE%E3%81%99/</link>
-      <pubDate>Mon, 09 Sep 2019 09:00:00 +0000</pubDate>
-      
-      <guid>https://blog.hostdon.jp/pleroma%E3%83%9B%E3%82%B9%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E9%96%8B%E5%A7%8B%E8%A8%98%E5%BF%B5-14%E6%97%A5%E9%96%93%E7%84%A1%E6%96%99%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%E3%82%92%E5%AE%9F%E6%96%BD%E3%81%97%E3%81%BE%E3%81%99/</guid>
-      <description>Hostdonは8月31日よりPleromaホスティングを開始しました。
+※2019年12月31日まで無償提供となりますが、それ以降は所定の料金がかかります。ご注意ください。 ※セットアップに時間がかかる場合があります。また、規定の申込数に達した場合は新規申込を停止させていただきます。</description></item><item><title>Pleromaホスティング開始記念 14日間無料キャンペーンを実施します</title><link>https://blog.hostdon.jp/pleroma%E3%83%9B%E3%82%B9%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E9%96%8B%E5%A7%8B%E8%A8%98%E5%BF%B5-14%E6%97%A5%E9%96%93%E7%84%A1%E6%96%99%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%E3%82%92%E5%AE%9F%E6%96%BD%E3%81%97%E3%81%BE%E3%81%99/</link><pubDate>Mon, 09 Sep 2019 09:00:00 +0000</pubDate><guid>https://blog.hostdon.jp/pleroma%E3%83%9B%E3%82%B9%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E9%96%8B%E5%A7%8B%E8%A8%98%E5%BF%B5-14%E6%97%A5%E9%96%93%E7%84%A1%E6%96%99%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%E3%82%92%E5%AE%9F%E6%96%BD%E3%81%97%E3%81%BE%E3%81%99/</guid><description>Hostdonは8月31日よりPleromaホスティングを開始しました。
 この記念として、新規インスタンスを申し込むと利用料金が14日間無料になるキャンペーンを実施します。
- 対象: 期間中、新規インスタンスを申し込んだ方(Mastodon・Pleroma) 期間: 2019年9月10日から2019年9月16日まで 注意事項: 特典は1人1回までとさせていただきます。また、ディスク増量及び日本語検索機能の料金は対象外です。  この機会に是非、Hostdonをご利用ください！</description>
-    </item>
-    
-    <item>
-      <title>[予告]Pleromaホスティングの仕様、料金について</title>
-      <link>https://blog.hostdon.jp/pleroma/</link>
-      <pubDate>Wed, 28 Aug 2019 13:00:00 +0000</pubDate>
-      
-      <guid>https://blog.hostdon.jp/pleroma/</guid>
-      <description>Hostdonは2019年8月31日よりPleromaホスティングを開始する予定です。
+対象: 期間中、新規インスタンスを申し込んだ方(Mastodon・Pleroma) 期間: 2019年9月10日から2019年9月16日まで 注意事項: 特典は1人1回までとさせていただきます。また、ディスク増量及び日本語検索機能の料金は対象外です。 この機会に是非、Hostdonをご利用ください！</description></item><item><title>[予告]Pleromaホスティングの仕様、料金について</title><link>https://blog.hostdon.jp/pleroma/</link><pubDate>Wed, 28 Aug 2019 13:00:00 +0000</pubDate><guid>https://blog.hostdon.jp/pleroma/</guid><description>Hostdonは2019年8月31日よりPleromaホスティングを開始する予定です。
 ここではその仕様や料金体系について紹介します。
 Pleromaホスティングの仕様 ソースコード: https://github.com/Hostdon/pleroma
 以下の二点についてオリジナルのソースコードより改変しています。
- 日本語ロケールのデフォルトを「やさしい日本語」から「日本語」に変更 S3利用時のメディアアップロードパスを変更  全プランにて、リモートインスタンスの画像のキャッシュを有効化しています。また、リレーサーバー接続も可能です。
+日本語ロケールのデフォルトを「やさしい日本語」から「日本語」に変更 S3利用時のメディアアップロードパスを変更 全プランにて、リモートインスタンスの画像のキャッシュを有効化しています。また、リレーサーバー接続も可能です。
 デプロイするサーバーはMastodonホスティングと同じスペックのサーバー(東京)を使用する予定です。
 Pleromaのアップデートについて Mastodonホスティングと同様に、公式のリリースが出たら https://pleroma.hostdon.ne.jp に先行アップデートを行い安定動作を確認した後、全インスタンスにてアップデートを実施します。
 料金プラン 以下のプランを提供予定です。※プレミアムプランは9月中旬より申込開始予定です。
-スタンダードプラン  画像ストレージ: 10GB ローカルチャット: 無効 収容サーバー: 共有 月額400円/年額4200円  プレミアムプラン  画像ストレージ: 50GB ローカルチャット: 有効 収容サーバー: 専用(RAM 2GB/CPU 1コア割り当て) 月額900円/年額10000円  オプションサービス  ディスク増量(50GB): 月額324円/年額3240円  申込開始日時 2019年8月31日 午前10時ごろ(JST)</description>
-    </item>
-    
-    <item>
-      <title>Hostdon 2周年記念 30日間無料キャンペーンを実施します</title>
-      <link>https://blog.hostdon.jp/hostdon-campaign/</link>
-      <pubDate>Wed, 03 Jul 2019 09:49:30 +0900</pubDate>
-      
-      <guid>https://blog.hostdon.jp/hostdon-campaign/</guid>
-      <description>Hostdonは今月で2周年となります。記念として30日間新規インスタンスを申し込むと基本利用料が30日間無料になるキャンペーンを実施します。
+スタンダードプラン 画像ストレージ: 10GB ローカルチャット: 無効 収容サーバー: 共有 月額400円/年額4200円 プレミアムプラン 画像ストレージ: 50GB ローカルチャット: 有効 収容サーバー: 専用(RAM 2GB/CPU 1コア割り当て) 月額900円/年額10000円 オプションサービス ディスク増量(50GB): 月額324円/年額3240円 申込開始日時 2019年8月31日 午前10時ごろ(JST)</description></item><item><title>Hostdon 2周年記念 30日間無料キャンペーンを実施します</title><link>https://blog.hostdon.jp/hostdon-campaign/</link><pubDate>Wed, 03 Jul 2019 09:49:30 +0900</pubDate><guid>https://blog.hostdon.jp/hostdon-campaign/</guid><description>Hostdonは今月で2周年となります。記念として30日間新規インスタンスを申し込むと基本利用料が30日間無料になるキャンペーンを実施します。
 対象: 期間中、新規インスタンスを申し込んだ方
 期間: 2019年7月3日から2019年7月10日まで
 注意事項: 特典は1人1回までとさせていただきます。また、ディスク増量及び日本語検索機能の料金は対象外です。
-この機会に是非、Hostdonをご利用ください！</description>
-    </item>
-    
-    <item>
-      <title>HostdonはMastodonのプラチナスポンサーになりました</title>
-      <link>https://blog.hostdon.jp/hostdon-sponser/</link>
-      <pubDate>Tue, 02 Jul 2019 10:06:57 +0900</pubDate>
-      
-      <guid>https://blog.hostdon.jp/hostdon-sponser/</guid>
-      <description>2019年7月よりHostdonはMastodonのプラチナスポンサー(月200ドルを寄付)になりました</description>
-    </item>
-    
-    <item>
-      <title>[新機能]コントロールパネルがリニューアルしました</title>
-      <link>https://blog.hostdon.jp/new-manager-20190324/</link>
-      <pubDate>Sun, 24 Mar 2019 11:00:10 +0900</pubDate>
-      
-      <guid>https://blog.hostdon.jp/new-manager-20190324/</guid>
-      <description>Hostdonでは以前から運用していましたコントロールパネルをリニューアルしました。
+この機会に是非、Hostdonをご利用ください！</description></item><item><title>HostdonはMastodonのプラチナスポンサーになりました</title><link>https://blog.hostdon.jp/hostdon-sponser/</link><pubDate>Tue, 02 Jul 2019 10:06:57 +0900</pubDate><guid>https://blog.hostdon.jp/hostdon-sponser/</guid><description>2019年7月よりHostdonはMastodonのプラチナスポンサー(月200ドルを寄付)になりました</description></item><item><title>[新機能]コントロールパネルがリニューアルしました</title><link>https://blog.hostdon.jp/new-manager-20190324/</link><pubDate>Sun, 24 Mar 2019 11:00:10 +0900</pubDate><guid>https://blog.hostdon.jp/new-manager-20190324/</guid><description>Hostdonでは以前から運用していましたコントロールパネルをリニューアルしました。
 新コントロールパネル: https://manage.hostdon.jp
-
 今回のアップデートでは全面的にデザインを見直しました。
 新機能:
- 請求履歴の確認ができるようになりました。Stripeが提供する請求書や領収書がPDFで確認できます。
- 1つのアカウントで複数のインスタンスが管理できるようになりました。
- クーポン機能を追加しました。
- Mastodonのサーバー側で行うタスクが実行できるようになりました。 その他軽微調整を行いました。
-  追加予定の機能:
- 二段階認証 インスタンスのリソースグラフ  これからも新機能の追加を行う予定ですので、よろしくお願い致します。
-※以前のコントロールパネルは新コントロールパネルにリダイレクトされます。</description>
-    </item>
-    
-  </channel>
-</rss>
+請求履歴の確認ができるようになりました。Stripeが提供する請求書や領収書がPDFで確認できます。 1つのアカウントで複数のインスタンスが管理できるようになりました。 クーポン機能を追加しました。 Mastodonのサーバー側で行うタスクが実行できるようになりました。 その他軽微調整を行いました。 追加予定の機能:
+二段階認証 インスタンスのリソースグラフ これからも新機能の追加を行う予定ですので、よろしくお願い致します。
+※以前のコントロールパネルは新コントロールパネルにリダイレクトされます。</description></item></channel></rss>
