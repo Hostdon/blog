@@ -1,5 +1,5 @@
 # blog
 Hostodonの公式ブログ
-[![Build Status](https://travis-ci.org/Hostdon/blog.svg?branch=master)](https://travis-ci.org/Hostdon/blog)
+[![github pages](https://github.com/Hostdon/blog/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/Hostdon/blog/actions/workflows/gh-pages.yml)
 
 公開サイト: [blog.hostdon.jp](https://blog.hostdon.jp)
