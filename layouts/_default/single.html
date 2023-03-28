@@ -6,7 +6,7 @@
         <div class="card-body">
           <h1 class="mt-0 mb-4">{{ .Title }}</h1>
           {{ with .Params.tags }}
-          {{ range . }} <a href="/tags/{{ lower . }}/" class="badge bg-success">{{ . }}</a>{{ end }}
+          {{ range . }} <a href="/tags/{{ lower . }}/" class="badge badge-outline text-blue">{{ . }}</a>{{ end }}
           {{ end }}
           <div class="float-end">
             <p class="text-muted">{{ .Date.Format "2006年1月2日" }}</p>
