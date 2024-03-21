@@ -10,8 +10,21 @@
       <div class="mt-4">
         <p>{{ .Content }}</p>
       </div>
+      <div class="flex justify-between">
+        <div class="flex items-center">
+          <div class="mastoshare mr-2" data-button-text="Mastodonでシェア" data-text="{{ .Title }}"
+            data-url="{{ .Permalink }}">
+          </div>
+          <a href="https://b.hatena.ne.jp/entry/" class="hatena-bookmark-button"
+            data-hatena-bookmark-layout="vertical-normal" data-hatena-bookmark-lang="ja"
+            title="このエントリーをはてなブックマークに追加"><img
+              src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加"
+              width="20" height="20" style="border: none;" /></a>
+          <script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8"
+            async="async"></script>
+        </div>
+      </div>
     </div>
-
   </div>
 </div>
 {{ partial "footer.html" . }}
