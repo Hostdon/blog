@@ -1,13 +1,13 @@
 {{ partial "header.html" . }}
-<div class="my-3 my-md-4">
-    <div class="container">
-        <div class="col-12">
-            <h1>タグ: {{ .Title }} の記事一覧</h1>
-            <hr>
-            {{ range (.Paginator 5).Pages }}
-            {{ .Render "list" }}
-            {{ end }}
-        </div>
+<section class="flex-grow text-gray-600 body-font bg-gray-100">
+  <div class="max-w-screen-xl  px-5 py-12 mx-auto">
+    <h1 class="text-3xl font-bold mb-4">タグ: {{ .Title }} の記事一覧</h1>
+    <div class="flex flex-wrap -m-4">
+      {{ range (.Paginator 9).Pages }}
+      {{ .Render "list" }}
+      {{ end }}
     </div>
-</div>
+  </div>
+</section>
+{{ partial "page.html" . }}
 {{ partial "footer.html" . }}
