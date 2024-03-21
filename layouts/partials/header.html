@@ -17,6 +17,8 @@
   {{ $style = $style | minify | fingerprint | resources.PostProcess }}
   {{ end }}
   <link href="{{ $style.RelPermalink }}" rel="stylesheet" />
+  <link rel="stylesheet" href="//mastoshare.net/css/button.css">
+  <script src="//mastoshare.net/js/button.js"></script>
   <script src="//unpkg.com/alpinejs" defer></script>
 
 </head>
