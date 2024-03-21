@@ -1,64 +1,12 @@
 {{ partial "header.html" . }}
-<div class="my-3 my-md-4">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 col-lg-8">
-
-        {{ range (.Paginator 7).Pages }}
-        {{ .Render "list" }}
-        {{ end }}
-
-        {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
-        <nav aria-label="Page navigation">
-          <ul class="pagination justify-content-center">
-            {{ if .Paginator.HasPrev }}
-            <li class="page-item">
-              <a class="page-link" href="{{ .Paginator.Prev.URL }}" tabindex="-1">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24"
-                  stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <polyline points="15 6 9 12 15 18"></polyline>
-                </svg>
-                前へ
-              </a>
-            </li>
+<section class="flex-grow text-gray-600 body-font bg-gray-100">
+    <div class="max-w-screen-xl  px-5 py-12 mx-auto">
+        <div class="flex flex-wrap -m-4">
+            {{ range (.Paginator 9).Pages }}
+            {{ .Render "list" }}
             {{ end }}
-            {{ range .Paginator.Pagers }}
-            <li class="page-item">
-              <a class="page-link" href="{{ .URL }}">{{ .PageNumber }}</a>
-              {{ end }}
-    
-              {{ if .Paginator.HasNext }}
-            <li class="page-item">
-              <a class="page-link" href="{{ .Paginator.Next.URL }}" tabindex="-1">
-                次へ
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24"
-                  stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <polyline points="9 6 15 12 9 18"></polyline>
-                </svg>
-              </a>
-            </li>
-            {{ end }}
-          </ul>
-        </nav>
-        {{ end }}
-
-      </div>
-      <div class="d-none d-lg-block col-lg-4">
-        <div class="card">
-          <div class="card-body">
-
-            <h1>タグ一覧</h1>
-            {{- range $termName, $entries := .Site.Taxonomies.tags }}
-            <li><a href="{{ "tags/" | relLangURL }}{{ $termName | urlize }}">{{ $termName }}</a> ({{ $entries.Count
-              }})
-              {{- end }}
-          </div>
         </div>
-      </div>
     </div>
-
-
-  </div>
-  {{ partial "footer.html" . }}
+</section>
+{{ partial "page.html" . }}
+{{ partial "footer.html" . }}
