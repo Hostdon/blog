@@ -3,3 +3,5 @@ languageCode = "ja-jp"
 title = "Hostdon 公式ブログ"
 [taxonomies]
 tag = "tags"
+[params]
+summaryLength = 100
