@@ -1,7 +1,7 @@
 <div class="p-4 md:w-1/3">
   <div class="h-full bg-white shadow-md border-gray-200 border-opacity-60 rounded-md overflow-hidden flex flex-col">
     <a href="{{ .Permalink }}">
-      {{ $eyecatch_image := findRE "<img.*?src=([^>]*)?>" .Content 1 }}
+      <!--{{ $eyecatch_image := findRE "<img.*?src=([^>]*)?>" .Content 1 }}
         {{ if ge (len $eyecatch_image ) 1 }}
         {{ range $eyecatch_image }}
         {{ . | safeHTML }}
@@ -9,6 +9,9 @@
         {{ else }}
         <img src="{{ .Site.BaseURL }}/assets/images/top.png" class="lg:h-48 md:h-36 w-full object-cover object-center">
         {{ end}}
+        -->
+        <img src="{{ .Site.BaseURL }}/assets/images/top.png" class="lg:h-48 md:h-36 w-full object-cover object-center">
+
     </a>
     <div class="p-6 flex flex-col flex-1">
       {{ with .Params.tags }}
