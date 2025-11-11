@@ -1,0 +1,85 @@
+/* Image Lightbox Styles */
+.image-lightbox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+}
+
+.image-lightbox.active {
+  display: block;
+}
+
+.lightbox-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px 20px 20px;
+  box-sizing: border-box;
+}
+
+.lightbox-image {
+  max-width: 90%;
+  max-height: 80vh;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  cursor: default;
+  animation: lightbox-zoom-in 0.3s ease;
+  pointer-events: none;
+}
+
+@keyframes lightbox-zoom-in {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.lightbox-caption {
+  color: white;
+  text-align: center;
+  padding: 15px;
+  max-width: 90%;
+  font-size: 14px;
+  margin-top: 10px;
+  pointer-events: none;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .lightbox-image {
+    max-width: 95%;
+    max-height: 70vh;
+  }
+
+  .lightbox-caption {
+    font-size: 12px;
+    padding: 10px;
+  }
+}
+
+/* Add hover effect to images that can be clicked */
+.prose img {
+  transition: all 0.3s ease;
+}
+
+.prose img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
