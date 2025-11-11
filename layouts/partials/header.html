@@ -12,10 +12,11 @@
   <title>Hostdon blog</title>
   {{ end }}
   {{ $options := dict "inlineImports" true }}
-  {{ $style := resources.Get "css/main.scss" | resources.ToCSS | resources.PostCSS $options }}
+  {{ $style := resources.Get "css/main.scss" | css.Sass | css.PostCSS $options }}
   {{ if hugo.IsProduction }}
-  {{ $style = $style | minify | fingerprint | resources.PostProcess }}
+    {{ $style = $style | minify | fingerprint | resources.PostProcess }}
   {{ end }}
+<link href="{{ $style.RelPermalink }}" rel="stylesheet" />
   <link href="{{ $style.RelPermalink }}" rel="stylesheet" />
   <link rel="stylesheet" href="//mastoshare.net/css/button.css">
   <script src="//mastoshare.net/js/button.js"></script>
