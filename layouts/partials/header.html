@@ -6,10 +6,68 @@
     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="icon" href="./favicon.ico" type="image/x-icon" />
   <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+
   {{ if .IsPage }}
   <title>{{ .Title }} | Hostdon blog</title>
   {{ else }}
   <title>Hostdon blog</title>
+  {{ end }}
+
+  <!-- OGP Tags -->
+  <meta property="og:site_name" content="Hostdon 公式ブログ">
+  {{ if .IsPage }}
+  <meta property="og:title" content="{{ .Title }}">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="{{ .Permalink }}">
+  {{ with .Params.summary }}
+  <meta property="og:description" content="{{ . }}">
+  <meta name="description" content="{{ . }}">
+  {{ else }}
+  {{ with .Summary }}
+  <meta property="og:description" content="{{ . | plainify | truncate 200 }}">
+  <meta name="description" content="{{ . | plainify | truncate 200 }}">
+  {{ end }}
+  {{ end }}
+  <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+  {{ with .Params.tags }}
+  {{ range . }}
+  <meta property="article:tag" content="{{ . }}">
+  {{ end }}
+  {{ end }}
+  {{ else }}
+  <meta property="og:title" content="Hostdon 公式ブログ">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ .Site.BaseURL }}">
+  <meta property="og:description" content="Hostdonの最新情報やお知らせをお届けします">
+  <meta name="description" content="Hostdonの最新情報やお知らせをお届けします">
+  {{ end }}
+
+  <!-- OGP Image -->
+  {{ if .Params.ogimage }}
+  <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.ogimage }}">
+  {{ else }}
+  <meta property="og:image" content="{{ .Site.BaseURL }}/assets/images/ogp.png">
+  {{ end }}
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  {{ if .IsPage }}
+  <meta name="twitter:title" content="{{ .Title }}">
+  {{ with .Params.summary }}
+  <meta name="twitter:description" content="{{ . }}">
+  {{ else }}
+  {{ with .Summary }}
+  <meta name="twitter:description" content="{{ . | plainify | truncate 200 }}">
+  {{ end }}
+  {{ end }}
+  {{ else }}
+  <meta name="twitter:title" content="Hostdon 公式ブログ">
+  <meta name="twitter:description" content="Hostdonの最新情報やお知らせをお届けします">
+  {{ end }}
+  {{ if .Params.ogimage }}
+  <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.ogimage }}">
+  {{ else }}
+  <meta name="twitter:image" content="{{ .Site.BaseURL }}/assets/images/ogp.png">
   {{ end }}
   {{ $options := dict "inlineImports" true }}
   {{ $style := resources.Get "css/main.scss" | css.Sass | css.PostCSS $options }}
