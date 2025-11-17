@@ -80,7 +80,6 @@
   <link rel="stylesheet" href="{{ .Site.BaseURL }}/assets/css/image-lightbox.css">
   <script src="//mastoshare.net/js/button.js"></script>
   <script src="//unpkg.com/alpinejs" defer></script>
-  {{- if and (not .Site.IsServer) .Site.GoogleAnalytics -}}
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-SZYKB9M5WV"></script>
   <script>
@@ -90,7 +89,6 @@
 
     gtag('config', 'G-SZYKB9M5WV');
   </script>
-  {{- end -}}
 
 </head>
 
