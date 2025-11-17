@@ -74,12 +74,23 @@
   {{ if hugo.IsProduction }}
     {{ $style = $style | minify | fingerprint | resources.PostProcess }}
   {{ end }}
-<link href="{{ $style.RelPermalink }}" rel="stylesheet" />
+  <link href="{{ $style.RelPermalink }}" rel="stylesheet" />
   <link href="{{ $style.RelPermalink }}" rel="stylesheet" />
   <link rel="stylesheet" href="//mastoshare.net/css/button.css">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}/assets/css/image-lightbox.css">
   <script src="//mastoshare.net/js/button.js"></script>
   <script src="//unpkg.com/alpinejs" defer></script>
+  {{- if and (not .Site.IsServer) .Site.GoogleAnalytics -}}
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SZYKB9M5WV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-SZYKB9M5WV');
+  </script>
+  {{- end -}}
 
 </head>
 
